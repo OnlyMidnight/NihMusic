@@ -29,17 +29,18 @@ logging.basicConfig(level=logging.INFO)
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Haii {message.from_user.first_name} saya adalah {PROJECT_NAME}\n
-Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda Dengan Mudah
-Saya Memiliki Banyak Fitur Seperti :
+🎤**Saya Adalah Bot Music Group**\n
+Yang di kelola oleh Ari, Dan saya Bisa Memutar Lagu di Voice Chat Group Anda.Dan Saya Memiliki Fitur Seperti :
 • Memutar Musik.
 • Mendownload Lagu.
-• Mencari Lagu Yang ingin di Putar atau di Download.
-• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkapnya
+• Mencari Lagu Yang ingin di Putar atau di Download, Dan
+• Mendonasi Kan Ke Owner Bot Se Ikhlas nya Jika Kamu Kelebihan Uang.
 
-📌 Special Thanks To : {OWNER}
+🌹 Special Thanks To : ᴠɪᴄᴋʏ X ᴀʀɪ 🌹
 
-Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
-</b>""",
+☕ Di Kelola Oleh : [Ari](https://t.me/SilenceSpe4ks)
+
+""",
 
 # Edit Yang Seharusnya Lu Edit Aja:D
 # Tapi Jangan di Hapus Special Thanks To nya Yaaa :'D
@@ -48,18 +49,15 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "📓ʙᴀᴄᴀ ᴀᴛᴜʀᴀɴ ᴘᴀᴋᴀɪ ❗", url=f"https://telegra.ph/Panduan-Stereo-Musik-07-23-4")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "🌻 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "🎈 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "ɢʀᴏᴜᴘs 🌹", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
-                ],[
-                    InlineKeyboardButton(
-                        "🎁 Donate", url=f"https://t.me/VckyouuBitch")
+                        "☕ ᴅᴏɴᴀᴛᴇ", url=f"https://t.me/SilenceSpe4ks")
                 ]
             ]
         ),
@@ -99,9 +97,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '💬 Channel Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '🔰 Group Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
+            [InlineKeyboardButton(text = '🌻 Channel Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
+             InlineKeyboardButton(text = '🌹 Group Support', url=f"https://t.me/{SUPPORT_GROUP}")],
+            [InlineKeyboardButton(text = '☕ ᴅᴏɴᴀᴛᴇ', url=f"https://t.me/SilenceSpe4ks")],
             [InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}")]
         ]
     else:
@@ -149,7 +147,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/Vckyouuu/32"
+                        "📄 ᴄᴀʀᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ 📄", url="https://telegra.ph/Panduan-Stereo-Musik-07-23-4"
                     )
                 ]
             ]
@@ -168,10 +166,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/GeezSupportGroup"
+                        "☕ ᴄʀᴇᴀᴛᴇᴅ", url=f"https://t.me/SilenceSpe4ks"
                     ),
                     InlineKeyboardButton(
-                        "Created By", url=f"https://t.me/VckyouuBitch"
+                        "ɢʀᴏᴜᴘs 🌹", url=f"https://t.me/luciddreaams"
                     )
                 ]
             ]
