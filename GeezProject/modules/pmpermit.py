@@ -33,7 +33,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-            f"Halo, Saya adalah **Layanan Asistant {PROJECT_NAME}.**\n\n ❗️ **Rules:**\n   - Jangan Spam Pesan disini\n   - Jangan Spam Lagu Biar Ga Error\n   - Tutorial Cara Menggunakan bot Lihat di @{UPDATES_CHANNEL} \n\n **Jika Tidak Mengerti Caranya, Bisa Tanya Tanya Ke Owner Bot.**\n\n **Owner** {OWNER}\n\n",
+            f"Halo, Saya adalah **Layanan Asistant {PROJECT_NAME}.**\n\n ❗️ **Rules:**\n   - Jangan Spam Pesan disini\n   - Jangan Spam Lagu Biar Ga Error\n   - Tutorial Cara Menggunakan bot Lihat di @{UPDATES_CHANNEL} \n\n **Jika Tidak Mengerti Caranya, Silahkan Tanya Tanya Ke Owner Bot nya Langsung.**",
             )
             return
 
