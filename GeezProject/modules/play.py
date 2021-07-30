@@ -997,7 +997,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("Anda bukan orang yang meminta untuk memutar lagu!", show_alert=True)
         return
-    await cb.message.edit("**Sedang Memproses!**")
+    await cb.message.edit("**🔄 Sedang Memproses Lagu!**")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
