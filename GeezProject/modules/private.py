@@ -29,16 +29,15 @@ logging.basicConfig(level=logging.INFO)
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Haii {message.from_user.first_name} saya adalah {PROJECT_NAME}\n
-🎤**Saya Adalah Bot Music Group**\n
-Yang di kelola oleh Ari, Dan saya Bisa Memutar Lagu di Voice Chat Group Anda.Dan Saya Memiliki Fitur Seperti :
-• Memutar Musik.
-• Mendownload Lagu.
-• Mencari Lagu Yang ingin di Putar atau di Download, Dan
-• Mendonasi Kan Ke Owner Bot Se Ikhlas nya Jika Kamu Kelebihan Uang.
+🎤 **Saya Adalah Bot Music Group** 🎶\n
+Dan Saya Di Kelola Oleh Ari, Dan saya Bisa Memutar Lagu di Voice Chat Group Anda.Dan Saya Memiliki Fitur Seperti :
+• Mencari Dan Memutar Musik Yang Kamu Inginkan.
+• Mendownload Lagu Yang Ingin Kamu Download,Dan
+• Mendonasi Kan Ke Owner Bot Se Ikhlas nya,Jika Kamu Kelebihan Uang.
 
 🌹 Special Thanks To : ᴠɪᴄᴋʏ X ᴀʀɪ 🌹
 
-☕ Di Kelola Oleh : [Ari](https://t.me/SilenceSpe4ks)
+☕ Di Kelola Oleh : [ᴀʀɪ](https://t.me/SilenceSpe4ks)
 
 """,
 
