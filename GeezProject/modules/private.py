@@ -96,9 +96,9 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton("➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '🌻 Channel Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '🌹 Group Support', url=f"https://t.me/{SUPPORT_GROUP}")],
+            [InlineKeyboardButton("➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴀᴋᴜ ᴅɪ ɢʀᴏᴜᴘ ᴋᴀᴍᴜ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton(text = '🌻 ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/{UPDATES_CHANNEL}"),
+             InlineKeyboardButton(text = 'ɢʀᴏᴜᴘs 🌹', url=f"https://t.me/{SUPPORT_GROUP}")],
             [InlineKeyboardButton(text = '☕ ᴅᴏɴᴀᴛᴇ', url=f"https://t.me/SilenceSpe4ks")],
             [InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}")]
         ]
