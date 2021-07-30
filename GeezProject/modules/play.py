@@ -534,10 +534,9 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjets"),
+                    InlineKeyboardButton("🌻 ᴄʜᴀɴɴᴇʟ", url="https://t.me/infobotmusik"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘs 🌹", url="https://t.me/luciddreaams"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
@@ -581,10 +580,9 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🌻 ᴄʜᴀɴɴᴇʟ", url="https://t.me/infobotmusik"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘs 🌹", url="https://t.me/luciddreaams"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -660,10 +658,9 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🌻ᴄʜᴀɴɴᴇʟ", url="https://t.me/infobotmusik"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘs 🌹", url="https://t.me/luciddreaams"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
             requested_by = message.from_user.first_name
@@ -802,10 +799,9 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🌻 ᴄʜᴀɴɴᴇʟ", url="https://t.me/infobotmusik"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘs 🌹", url="https://t.me/luciddreaams"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
     requested_by = message.from_user.first_name
@@ -898,7 +894,7 @@ async def deezer(client: Client, message_: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>⛑ Flood Wait Error ⛑\n{user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk userbot! Pastikan pengguna tidak dibanned dalam grup."
+                        f"<b>‼ Flood Wait Error ‼\n{user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk userbot! Pastikan pengguna tidak dibanned dalam grup."
                         f"\n\nAtau tambahkan @{ASSISTANT_NAME} secara manual ke Grup Anda dan coba lagi</b>",
                     )
     try:
@@ -940,7 +936,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/GeezProjects")],
+            [InlineKeyboardButton(text="🌻 ᴄʜᴀɴɴᴇʟ", url="https://t.me/infobotmusik")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1001,7 +997,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("Anda bukan orang yang meminta untuk memutar lagu!", show_alert=True)
         return
-    await cb.message.edit("**Processing**")
+    await cb.message.edit("**Sedang Memproses!**")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
@@ -1035,10 +1031,9 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("🌻 ᴄʜᴀɴɴᴇʟ", url="https://t.me/infobotmusik"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘs 🌹", url="https://t.me/luciddreaams"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
         )
     requested_by = useer_name
